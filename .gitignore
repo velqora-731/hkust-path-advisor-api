@@ -1,0 +1,16 @@
+# Local Python and crawler output files
+__pycache__/
+*.py[cod]
+hkust_locations.csv
+hkust_locations_raw.json
+hkust_filtered_locations.csv
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
